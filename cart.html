@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="script.js">
+</head>
+
+<body>
+    <section class="header">
+        <a href="index.html"><img src="images/logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html">🛒</a></li>
+                <a href="#" id="close">❌</a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <!-- <i>fa fa-outdent</i> -->
+            <a href="cart.html">🛒</a>
+            <i id="bar">🟰</i>
+
+        </div>
+    </section>
+
+    <section class="page-header" id="about-header"> 
+        <h2>#let's talk</h2>
+        <p>LEAVE A MESSAGE, We love to here from you</p>
+    </section>
+
+    <section class="cart" id="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a style="text-decoration: none;" href="#">×</a></td>
+                    <td><img src="images/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>118.19</td>
+                </tr>
+                <tr>
+                    <td><a style="text-decoration: none;" href="#">×</a></td>
+                    <td><img src="images/products/f7.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>118.19</td>
+                </tr>
+                <tr>
+                    <td><a style="text-decoration: none;" href="#">×</a></td>
+                    <td><img src="images/products/f8.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$118.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>118.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="cart-add" id="section-p1">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+            <div class="subtotal">
+                <h3>Cart Totels</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$335</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$335</strong></td>
+                    </tr>
+                </table>
+                <button class="normal" id="fun">Proceed to checkout</button>
+            </div>
+       
+    </section>
+    <footer id="section-p1">
+        <div class="col">
+            <img class="logox" src="images/logo.png" alt="">
+            <h4>Contect</h4>
+            <p><strong>Address:</strong> 562 Wallington Road,Street 32,san Francisco</p>
+            <p><strong>Phone:</strong> +917877724405</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, mon -sat</p>
+            <strong>Follow us</strong>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Plat</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+
+    </footer>
+
+    <div class="copyright">
+        <p>&copy; 2021,Tech2 etc - HTML CSS Ecommerce Template</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
