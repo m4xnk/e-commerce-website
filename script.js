@@ -13,3 +13,8 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+const fun = document.getElementById('fun')
+fun.addEventListener('click',function(){
+    alert("Tanks for visiting my website :) ")
+})
